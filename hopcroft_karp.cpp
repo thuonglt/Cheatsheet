@@ -54,7 +54,7 @@ int hopcroftKarp(vector<vector<int>> &conn, vector<bool> &inGr1) {
     int ret = 0;
     while(bfs(conn, inGr1, dist, pair)) {
         for(int i = 0; i < n; i++ ) {
-            if(pair[i] != -1) continue;
+            if(pair[i] != -1 || dist[i] != 0) continue;
             if(dfs(i, conn, dist, pair)) ret++;
         }
     }
