@@ -20,4 +20,5 @@ SOURCES += main.cpp \
     euclide_path.cpp \
     hopcroft_karp.cpp \
     sieve_of_era.cpp \
-    dinic.cpp
+    dinic.cpp \
+    faction.cpp
