@@ -35,7 +35,7 @@ class MaxFlow {
         return false;
     }
 
-    int minFlow() {
+    int maxFlow() {
         int n = conn.size();
         vector<int> parent(n);
         int ret = 0;
