@@ -1,7 +1,9 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 class MaxFlow {
-    public: 
+    public:
     vector<vector<int>> conn;
     int source, sink;
 
@@ -34,7 +36,7 @@ class MaxFlow {
         return false;
     }
 
-    int maxFlow() {
+    int flow() {
         int n = conn.size();
         vector<int> parent(n);
         int ret = 0;
