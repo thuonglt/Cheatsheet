@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 
-//connection map
 class MaxFlow {
     public: 
     vector<vector<int>> conn;
@@ -59,4 +58,4 @@ class MaxFlow {
         return ret;
     }
 
-}
+};
