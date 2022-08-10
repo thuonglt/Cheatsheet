@@ -6,7 +6,7 @@ class MaxFlow {
     int source, sink;
 
     MaxFlow(int node) {
-        conn = vector<vector<conn>>(node, vector<int>(node, 0));
+        conn = vector<vector<int>>(node, vector<int>(node, 0));
         source = 0; sink = node - 1;
     }
 
